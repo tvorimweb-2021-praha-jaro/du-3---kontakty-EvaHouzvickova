@@ -4,11 +4,14 @@ html { box-sizing: border-box }
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .zamestnanci {
     background-color: lightgrey;
     display: flex;
+    border-radius:0.5rem;
 }
 
 .zam1, 
@@ -19,13 +22,15 @@ body {
     padding: 2rem;
     margin: 2rem 0 2rem 2rem;
     text-align: center;
+    border-radius: 0.5rem;
+    flex-basis:22%;
 }
 
 .zam4 {
     margin-right: 2rem;
 }
 
-.profilovka {
+.profilovka { 
 border-radius: 50%;
 }
 
